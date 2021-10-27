@@ -11,7 +11,6 @@ import CoreData
 class ViewController: UITableViewController {
 
     // Create toDos ToDo array as a property of ViewController to hold default to-do data
-//    var toDos = [ToDo("Study Calculus"), ToDo("Make lunch"), ToDo("Do laundry")]
     var toDos: [ToDoEntity] = []
     
     // Whenever ViewController's add button is pressed, this function is called
